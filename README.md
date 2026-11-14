@@ -1,7 +1,7 @@
 
 # 🎓 DIU Student Management System
 
-### Simple records. Clear results. One small C project.
+### 🎫 Simple records. Clear results. One small C project.
 
 ---
 
