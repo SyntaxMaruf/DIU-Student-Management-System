@@ -1,14 +1,7 @@
-<div align="center">
 
 # 🎓 DIU Student Management System
 
 ### Simple records. Clear results. One small C project.
-
-**C11 · Linked List · File Handling · Grade Calculation**
-
-Created by **Maruf Billah** · **First Year, Third Semester**
-
-</div>
 
 ---
 
@@ -34,7 +27,7 @@ The goal is simple: keep the main tasks useful and easy to follow.
 
 ## ✨ Main features
 
-| Feature | What it does |
+| 📚 Feature | ⚙️ What it does |
 | --- | --- |
 | 👤 Add a student | Saves ID, name, department, batch, and section. |
 | 📋 View students | Shows all students and their available GPA. |
@@ -63,7 +56,7 @@ The goal is simple: keep the main tasks useful and easy to follow.
 
 ## 🧭 The menu
 
-| Number | Action |
+| 🔢 Number | 🧩 Action |
 | --- | --- |
 | 1 | Add student |
 | 2 | View student list |
@@ -201,7 +194,7 @@ This is a small, single-user academic console project. It has no login system, d
 **Maruf Billah**  
 BSc in Computer Science and Engineering  
 Daffodil International University  
-Project stage: First Year, Third Semester  
+Project stage: 1st Year, 3rd Semester  
 GitHub: [@SyntaxMaruf](https://github.com/SyntaxMaruf)
 
 **Idea by me. Built with AI assistance. Shared for learning.**
