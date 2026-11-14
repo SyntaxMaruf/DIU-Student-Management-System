@@ -1,0 +1,13 @@
+# Local student data
+studentdesk-simple.dat
+studentdesk-simple.bak
+studentdesk-simple.tmp
+# Build output
+*.exe
+*.o
+studentdesk
+# Editor files
+.vscode/
+*.cbp
+*.depend
+*.layout
