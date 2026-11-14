@@ -12,13 +12,19 @@ Created by **Maruf Billah** · **First Year, Third Semester**
 
 ---
 
-## 💡 My idea and the role of AI
+## 👋 About Me
 
-I planned this project during the third semester of my first year. The idea came from me. I used AI assistance to turn my idea into working C code and to help prepare the project notes.
+🎓 I am **Maruf Billah**, a CSE student at **Daffodil International University**. I built this project in my **1st year, 3rd semester**, using my own ideas with AI assistance.
 
-I share this clearly because honest credit matters. This is an AI-assisted learning project. It helps me study linked lists, student records, input checks, and file handling.
+## 🤖 My Idea: Learn the Logic, Build with AI
 
-This is an independent academic project inspired by student record needs at Daffodil International University. It is not an official DIU product or a complete university administration system.
+💡 I wanted to make student records and course results easier to manage in a small C program. The idea came from me. I used AI to help turn my idea into working code and explain possible solutions.
+
+🧠 My main focus is the program logic: what a user needs, how a linked list stores students, and how marks become grades and GPA. I am still learning C, and I aim to understand the main flow, check the results, and explain my choices clearly.
+
+🤝 I share the role of AI openly because honest credit matters. AI helps me build and learn.
+
+🏫 This is an independent academic project inspired by student record needs at DIU. It is not an official DIU product or a complete university administration system.
 
 ## 📖 What does this project do?
 
@@ -42,18 +48,18 @@ The goal is simple: keep the main tasks useful and easy to follow.
 
 ## 🛡️ Small details that improve use
 
-- Duplicate student IDs are blocked.
-- ID and course code checks ignore letter case.
-- An existing course code updates its result instead of adding a duplicate.
-- Empty input and text that is too long are rejected.
-- Invalid numbers, NaN, and infinity are rejected.
-- Marks must be between 0 and 100.
-- Course credits must be between 0.25 and 10.
-- Menu input must be a whole number from 0 to 6.
-- A student with no results shows “Not available”, not a false zero GPA.
-- Memory allocation is checked. Student nodes are freed before exit.
-- Save errors are reported. A previous data file is kept as a backup.
-- The program checks the file header and record values before loading.
+- 🆔 Duplicate student IDs are blocked.
+- 🔤 ID and course code checks ignore letter case.
+- 🔄 An existing course code updates its result instead of adding a duplicate.
+- ✍️ Empty input and text that is too long are rejected.
+- 🔢 Invalid numbers, NaN, and infinity are rejected.
+- 💯 Marks must be between 0 and 100.
+- 📚 Course credits must be between 0.25 and 10.
+- 🧭 Menu input must be a whole number from 0 to 6.
+- 📊 A student with no results shows “Not available”, not a false zero GPA.
+- 🧠 Memory allocation is checked. Student nodes are freed before exit.
+- 💾 Save errors are reported. A previous data file is kept as a backup.
+- 📂 The program checks the file header and record values before loading.
 
 ## 🧭 The menu
 
@@ -71,15 +77,15 @@ There is no separate edit mode or login step. Choose 1 to start adding a student
 
 ## ⚙️ How the code works
 
-1. The program opens its data file when it starts.
-2. It rebuilds the student linked list from saved records.
-3. The menu reads your choice and calls the right function.
-4. Each student node holds student details and a course array.
-5. Course marks are converted into grades and grade points.
-6. Each change triggers a save. The old file is kept before replacement.
-7. On exit, all student nodes are freed.
+1. 📂 The program opens its data file when it starts.
+2. 🔗 It rebuilds the student linked list from saved records.
+3. 🧭 The menu reads your choice and calls the right function.
+4. 👤 Each student node holds student details and a course array.
+5. 🧮 Course marks are converted into grades and grade points.
+6. 💾 Each change triggers a save. The old file is kept before replacement.
+7. 🧹 On exit, all student nodes are freed.
 
-### Why use a linked list?
+### 🔗 Why use a linked list?
 
 Each student is one node. A node points to the next student. The program creates a new node when a student is added. When a student is deleted, it joins the surrounding links and frees that node.
 
@@ -118,7 +124,7 @@ The GPA covers only the courses currently listed. It is not a full degree CGPA. 
 
 You need a C compiler with C11 support. VS Code is an editor; GCC must also be installed and available in your terminal.
 
-### Windows — PowerShell
+### 🪟 Windows — PowerShell
 
 Open the project folder in VS Code. Open its terminal and run:
 
@@ -127,14 +133,14 @@ gcc studentdesk.c -o studentdesk.exe -std=c11 -Wall -Wextra
 .\studentdesk.exe
 ```
 
-### Linux or macOS with a C compiler
+### 💻 Linux or macOS with a C compiler
 
 ```sh
 gcc studentdesk.c -o studentdesk -std=c11 -Wall -Wextra
 ./studentdesk
 ```
 
-### Code::Blocks
+### 🧰 Code::Blocks
 
 Create a C console project. Replace the contents of main.c with studentdesk.c. Use a C11-capable compiler, then Build and Run.
 
@@ -199,3 +205,4 @@ Project stage: First Year, Third Semester
 GitHub: [@SyntaxMaruf](https://github.com/SyntaxMaruf)
 
 **Idea by me. Built with AI assistance. Shared for learning.**
+
